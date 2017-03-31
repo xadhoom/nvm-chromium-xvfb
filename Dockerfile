@@ -10,5 +10,3 @@ RUN apt-get update && apt-get install -y curl xvfb chromium \
     && . $NVM_DIR/nvm.sh \
     && nvm install --lts \
     && nvm use --lts
-
-CMD ["/bin/bash"]
